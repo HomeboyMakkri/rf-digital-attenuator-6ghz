@@ -1,14 +1,28 @@
 # rf-digital-attenuator-6ghz 📡
-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![STM32](https://img.shields.io/badge/MCU-STM32F407-blue?logo=stmicroelectronics)
 ![Altium](https://img.shields.io/badge/PCB-Altium_Designer-orange)
 ![Frequency](https://img.shields.io/badge/RF-DC--6_GHz-red)
 ![Step](https://img.shields.io/badge/Resolution-0.5_dB-green)
 
-A professional open-source hardware project featuring a **6-bit Digital RF Attenuator** capable of operating up to 6 GHz. Controlled by an **STM32F407VET6** and based on the **HMC624A** (Analog Devices) silicon, this device provides precise signal level control via a simple USB-UART CLI or direct SPI interface.
+A student open-source hardware project featuring a **6-bit Digital RF Attenuator** capable
+of operating up to 6 GHz. Controlled by an **STM32F407VET6** and based on the **HMC624A**
+(Analog Devices) silicon, this device provides precise signal level control via a simple 
+USB-UART CLI or direct SPI interface.
+The RF signal path features a grounded coplanar waveguide (GCPW) structure to ensure 50 Ohm impedance matching across the entire operating frequency range.
+
+### Project Context & Disclaimer ⚠️
+
+This project is my first deep dive into the world of embedded systems and RF design. The control logic is implemented using STM32F4 (developed via CubeMX + Keil with HAL libraries), communicating with the HMC624A attenuator via SPI. Serial communication is handled by an FT232RL bridge at a baud rate of 115200.
+
+The hardware was designed from scratch in Altium Designer. Please note: this project is a learning experience. While it is fully functional, it should not be treated as a definitive reference or a textbook example. I am eager to learn and would sincerely appreciate any constructive criticism or suggestions for improvement!
+
+💡 Quick Tip: Check the Project Structure section at the bottom of this file for easy navigation through the firmware and hardware source files.
 
 ---
+## Control Command to set the attunuation level
+Connect via any Serial Terminal (115200 8N1):
+* `ATTEN XX.X` — Set attenuation (0 to 31.5)
 
 ## 🚀 Features
 

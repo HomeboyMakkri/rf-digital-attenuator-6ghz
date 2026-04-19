@@ -1,4 +1,6 @@
+.idea/
 idea/
+*.iml
 # === Altium Designer ===
 History/
 __Preview/

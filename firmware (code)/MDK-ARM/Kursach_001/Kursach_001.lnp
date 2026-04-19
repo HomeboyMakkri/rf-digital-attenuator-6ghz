@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"kursach_001\startup_stm32f407xx.o"
+"kursach_001\main.o"
+"kursach_001\stm32f4xx_it.o"
+"kursach_001\stm32f4xx_hal_msp.o"
+"kursach_001\stm32f4xx_hal_spi.o"
+"kursach_001\stm32f4xx_hal_rcc.o"
+"kursach_001\stm32f4xx_hal_rcc_ex.o"
+"kursach_001\stm32f4xx_hal_flash.o"
+"kursach_001\stm32f4xx_hal_flash_ex.o"
+"kursach_001\stm32f4xx_hal_flash_ramfunc.o"
+"kursach_001\stm32f4xx_hal_gpio.o"
+"kursach_001\stm32f4xx_hal_dma_ex.o"
+"kursach_001\stm32f4xx_hal_dma.o"
+"kursach_001\stm32f4xx_hal_pwr.o"
+"kursach_001\stm32f4xx_hal_pwr_ex.o"
+"kursach_001\stm32f4xx_hal_cortex.o"
+"kursach_001\stm32f4xx_hal.o"
+"kursach_001\stm32f4xx_hal_exti.o"
+"kursach_001\stm32f4xx_hal_uart.o"
+"kursach_001\system_stm32f4xx.o"
+--strict --scatter "Kursach_001\Kursach_001.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Kursach_001.map" -o Kursach_001\Kursach_001.axf

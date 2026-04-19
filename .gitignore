@@ -1,0 +1,44 @@
+# === Altium Designer ===
+History/
+__Preview/
+Project\ Outputs\ for*/
+
+# Логи и временные файлы
+*.PcbDoc.htm
+*.SchDoc.htm
+*.Annotation
+*.Constraint
+*.Txt
+*.Lck
+*.Zip
+*.log
+
+# === STM32 / Embedded (CubeIDE, Keil, IAR) ===
+Debug/
+Release/
+bin/
+obj/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.crf
+*.axf
+*.htm
+*.dep
+*.lnp
+
+# Настройки IDE (локальные)
+.settings/
+*.launch
+*.uvgui.*
+*.uvoptx
+*.scvd
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak

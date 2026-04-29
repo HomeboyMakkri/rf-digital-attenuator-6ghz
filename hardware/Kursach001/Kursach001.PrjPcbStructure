@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=Overview.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Overview.SchDoc|Designator=U_FT232|SchDesignator=U_FT232|FileName=FT232.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=FT232.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Overview.SchDoc|Designator=U_HMC624A|SchDesignator=U_HMC624A|FileName=HMC624A.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=HMC624A.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Overview.SchDoc|Designator=U_STM32F4xx|SchDesignator=U_STM32F4xx|FileName=STM32F4xx.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=STM32F4xx.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Overview.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=5
